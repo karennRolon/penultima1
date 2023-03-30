@@ -1,0 +1,62 @@
+:root {
+    font-family: Roboto, sans serif;
+    font-weight: 300;
+    line-height: 1.1;
+  
+    color: rgba(255, 244, 244, 0.87);
+    background-color: #0f0f0f;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a {
+    color:  #8d85da;
+    font-weight: 300;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #8d85da;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    min-width: 330px;
+    min-height: 98vh;
+    place-items: center;
+  }
+  
+  h1 {
+    line-height: 1.4;
+    font-size: 3.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif  }
+  
+  button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #8c32fb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  }
+  button:hover {
+    border-color:  #8d85da;
+
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 2px auto 
+  }
+  
+  
+  
